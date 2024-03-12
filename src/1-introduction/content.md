@@ -30,7 +30,16 @@ cd control
 And run:
 
 ```bash
+./control.sh pull
+```
+
+Docker containers will be pulled from docker hub.
+
+After this run:
+
+```bash
 ./control.sh run
 ```
 
-Docker containers will be pulled from docker hub and services will start.
+
+
